@@ -11,7 +11,12 @@ Set a password and grant sudo access
     user have sudo access
 
 Restrict SSH login for certain users in /etc/ssh/sshd_config
-  * vi /etc/ssh/sshd_config 
+  * vi /etc/ssh/sshd_config
+  * AllowUser devops_user,harshitha (Allow only specific users)
+  * DenyUsers devops_user (Deny specific user to access via ssh)
+
+#### File & Directory Permissions ####
+
 
 
  
