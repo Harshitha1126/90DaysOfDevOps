@@ -1,5 +1,4 @@
-######### TASK 1 ##########
-User & Group Management
+#### User & Group Management ####
 
 Create a user devops_user and add them to a group devops_team
   * useradd devops_user
